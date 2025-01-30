@@ -52,6 +52,7 @@ public class WorkingWithSelectListElements {
 		List<WebElement> allitems = multiselect.getAllSelectedOptions();
 		System.out.println(allitems.size());
 		multiselect.deselectByIndex(3);
+		multiselect.selectByIndex(2);
 		
 		
 	}
