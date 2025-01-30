@@ -53,6 +53,7 @@ public class WorkingWithSelectListElements {
 		System.out.println(allitems.size());
 		multiselect.deselectByIndex(3);
 		multiselect.selectByIndex(2);
+		multiselect.deselectByIndex(2);
 		
 		
 	}
