@@ -20,14 +20,14 @@ public class xpathfunctions {
 
 	// xpath function "starts-with"
 		driver.get("https://www.salesforce.com/form/signup/elf-v2-login/?d=70130000000Enus");
-/*		driver.findElement(By.xpath("//input[starts-with(@id,'UserLastName')]")).sendKeys("test");
+		driver.findElement(By.xpath("//input[starts-with(@id,'UserLastName')]")).sendKeys("test");
 		
 		//xpath function "contains"
 		driver.findElement(By.xpath("//input[contains(@id,'FirstName')]")).sendKeys("test");
 		
 		//xpath function "text()"
 		driver.get("https://www.google.com/");
-		driver.findElement(By.xpath("//a[text()='Gmail']")).click(); */
+		driver.findElement(By.xpath("//a[text()='Gmail']")).click(); 
 		
 		//xpath function AND - OR
 		driver.findElement(By.xpath("//input[@type='text' and @name='UserFirstName']")).sendKeys("Test");
@@ -35,10 +35,7 @@ public class xpathfunctions {
 		//xpath axes methods (parent, child, self)
 		driver.findElement(By.xpath("//select[@name='CompanyEmployees']//child::option[2]")).click();
 		//above I have located parent tag of child i.e select and then identified it's child tag options and
-		//passed value identifier which I wanted to select.
-		
-		//testing for git
-		
+		//passed value identifier which I wanted to select.		
 		
 		
 	}
